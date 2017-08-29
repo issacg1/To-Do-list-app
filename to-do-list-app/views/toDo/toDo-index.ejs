@@ -1,0 +1,23 @@
+<% include ../partials/boilerplate%>
+<% include ../partials/nav%>
+
+<div class="link2">
+<a class="link" href="/toDo/new">Add New To-Do</a>
+</div>
+<% to_do.forEach(function(to_do){ %>
+  <div class="aToDo">
+    <p class="titleFloat"><%=to_do.title%></p>
+    <p class="statusFloat"><%=to_do.status%></p>
+    <br/>
+    <hr/>
+    <p class="categoryFloat"><%=to_do.category%></p>
+    <form action="/toDo/<%=to_do.id%>?_method=DELETE" method="post">
+    <input type="submit" value="Delete" class="submitInput" />
+    </form>
+    <a href="/toDo/<%=to_do.id%>/edit">Edit</a>
+    <a href="/toDo/<%=to_do.id%>">More Info</a>
+  </div>
+<% }); %>
+
+<% include ../partials/footer%>
+<% include ../partials/end%>

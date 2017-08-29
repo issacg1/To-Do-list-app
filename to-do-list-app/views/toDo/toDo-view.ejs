@@ -1,0 +1,18 @@
+<% include ../partials/boilerplate%>
+<% include ../partials/nav%>
+
+<div class="aToDo">
+    <p class="titleFloat"> <%=to_do.title%></p>
+    <p class="statusFloat"> <%=to_do.status%></p>
+    <br/>
+    <hr/>
+    <p class="categoryFloat"> <%=to_do.category%></p>
+    <form action="/toDo/<%=to_do.id%>?_method=DELETE" method="post">
+    <input type="submit" value="Delete" class="submitInput" />
+    </form>
+    <a href="/toDo/<%=to_do.id%>/edit">Edit</a>
+    <p class="descripionFloat"><%=to_do.description%></p>
+  </div>
+
+<% include ../partials/footer%>
+<% include ../partials/end%>

@@ -1,0 +1,192 @@
+body{
+  background-color: Beige;
+}
+
+.navBar{
+  height: 15vh;
+  width: 100vw;
+  background-color: red;
+
+}
+
+.navBar > img{
+  height: 90%;
+  width: 10%;
+  margin-left: 1%;
+  margin-top: .5%;
+  float: left;
+}
+
+.navBar > a {
+  float: right;
+  margin-right: 2%;
+  margin-top: 4%;
+  font-size: 130%;
+  text-decoration: none;
+  color: black;
+}
+
+.navBar > a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.navBar > a:active{
+  text-decoration: underline;
+  color: green;
+}
+
+.indexMainCopy{
+  text-align: center;
+  font-size: 400%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.footer{
+  height: 10vh;
+  width: 100vw;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+}
+
+.footerCopy{
+  text-align: center;
+  font-size: 130%;
+  padding-top: 2%;
+}
+
+.aToDo{
+  height: 14vh;
+  width: 25vw;
+  margin-left: 37%;
+  margin-top: 5%;
+  border: 5px solid black;
+  padding-left: 1%;
+  padding-top: 1%;
+  font-size: 120%;
+}
+
+.titleFloat{
+  float: left;
+}
+
+.statusFloat{
+  float: right;
+  margin-right: 1%;
+}
+
+.categoryFloat{
+  float: left;
+  padding-top: 2%;
+}
+
+.descripionFloat{
+  float:left;
+  padding-top: 2%;
+}
+
+.aToDo > a{
+  float: right;
+  margin-right: 2%;
+  padding-top: 2%;
+  text-decoration: none;
+  color:red;
+}
+
+.aToDo > a:hover{
+  text-decoration: underline;
+}
+
+.aToDo > a:active{
+  text-decoration: underline;
+  color: green;
+}
+
+hr {
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 3%;
+}
+
+.submitInput{
+  border: 0;
+  border: none;
+  background-color: transparent;
+  float: right;
+  margin-right: 2%;
+  padding-top: 2%;
+  text-decoration: none;
+  color:red;
+  font-size: 85%;
+}
+
+.submitInput:hover{
+  text-decoration: underline;
+}
+
+.link {
+  background: red;
+  border-radius: 27px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 45%;
+}
+
+.link:hover {
+  background: green;
+  text-decoration: none;
+}
+
+.link2{
+  margin-top: 50px;
+  margin-right: 7%;
+}
+
+.form1{
+  height: 50vh;
+  width: 40vw;
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 30%;
+}
+
+.title{
+  margin-bottom: 5%;
+  height: 8%;
+  font-size: 100%;
+}
+
+.category{
+  margin-bottom: 5%;
+  height: 8%;
+  font-size: 100%;
+}
+
+.status{
+  margin-bottom: 5%;
+  height: 7%;
+  font-size: 100%;
+}
+
+.description{
+  margin-bottom: 5%;
+  height: 18%;
+  font-size: 100%;
+}
+
+.submit{
+  width: 10vw;
+  margin-left: 37%;
+  font-size: 90%;
+}
+
+.editCopy{
+  text-align: center;
+  font-size: 300%;
+  margin-top: 10%;
+  margin-bottom: 1%;
+}

@@ -1,0 +1,17 @@
+<% include ../partials/boilerplate%>
+<% include ../partials/nav%>
+
+<h1 class="editCopy">Add a new to-do!</h1>
+<form class="form1" action="/toDo" method="POST">
+  <input class="title" type="text" name="title" placeholder="title" />
+  <input class="category" type="text" name="category" placeholder="category" />
+  <select name="status" class="status">
+    <option value="Not Done">Not Done</option>
+    <option value="Done">Done</option>
+  </select>
+  <textarea name="description" class="description"></textarea>
+  <button type="submit" class="submit">Submit</button>
+</form>
+
+<% include ../partials/footer%>
+<% include ../partials/end%>
